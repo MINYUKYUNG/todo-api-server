@@ -10,7 +10,7 @@ const {
 
 router.post('/', getAllTodo);
 router.get('/:todoId', getTodo);
-router.post('/', postTodo);
+router.post('/add', postTodo);
 router.put('/:todoId', putTodo);
 router.delete('/:todoId', deleteTodo);
 
