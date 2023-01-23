@@ -6,19 +6,19 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:4000/todo/1
+GET http://localhost:4000/todo/17
 
 ###
-POST http://localhost:4000/todo
+POST http://localhost:4000/todo/add
 Content-Type: application/json
 
 {
-  "title": "제목1",
-  "description": "설명1",
-  "repetition": "[0]",
+  "title": "제목3",
+  "description": "설명3",
+  "repetition": "[]",
   "checked": false,
   "done": false,
-  "user_id": 1
+  "user_id": 2
 }
 
 ###
@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:4000/todo/16
+DELETE http://localhost:4000/todo/18
 
 ###
 POST http://localhost:4000/user/signin
@@ -46,8 +46,8 @@ POST http://localhost:4000/user/signup
 Content-Type: application/json
 
 {
-  "email": "hello4@naver.com",
-  "password": "hello4"
+  "email": "hello5@naver.com",
+  "password": "hello5"
 }
 
 ###
@@ -56,9 +56,9 @@ Content-Type: application/json
 
 {
   "id": 5,
-  "email": "hello3@naver.com",
-  "password": "hello3"
+  "email": "hello33@naver.com",
+  "password": "hello33"
 }
 
 ###
-DELETE http://localhost:4000/user/4
+DELETE http://localhost:4000/user/6
